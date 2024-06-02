@@ -1,0 +1,148 @@
+8c1e5d103563223fb76516c5a12e5de1
+"use strict";
+
+/* istanbul ignore next */
+function cov_1r7pajxn3d() {
+  var path = "/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/components/index.ts";
+  var hash = "85908d91c52ffe23ab6b6e3df74db4451e4cbb76";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/components/index.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 26
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 19
+        },
+        end: {
+          line: 4,
+          column: 40
+        }
+      },
+      "3": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 5,
+          column: 115
+        }
+      },
+      "4": {
+        start: {
+          line: 5,
+          column: 82
+        },
+        end: {
+          line: 5,
+          column: 109
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 5,
+            column: 68
+          },
+          end: {
+            line: 5,
+            column: 69
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 80
+          },
+          end: {
+            line: 5,
+            column: 111
+          }
+        },
+        line: 5
+      }
+    },
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {},
+    inputSourceMap: {
+      file: "/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/components/index.ts",
+      mappings: ";;;AAAA,yCAAoC;AAE5B,yFAFA,mBAAQ,OAEA",
+      names: [],
+      sources: ["/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/components/index.ts"],
+      sourcesContent: ["import {ListItem} from './ListItem';\n\nexport {ListItem};\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "85908d91c52ffe23ab6b6e3df74db4451e4cbb76"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_1r7pajxn3d = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_1r7pajxn3d();
+cov_1r7pajxn3d().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_1r7pajxn3d().s[1]++;
+exports.ListItem = void 0;
+const ListItem_1 =
+/* istanbul ignore next */
+(cov_1r7pajxn3d().s[2]++, require("./ListItem"));
+/* istanbul ignore next */
+cov_1r7pajxn3d().s[3]++;
+Object.defineProperty(exports, "ListItem", {
+  enumerable: true,
+  get: function () {
+    /* istanbul ignore next */
+    cov_1r7pajxn3d().f[0]++;
+    cov_1r7pajxn3d().s[4]++;
+    return ListItem_1.ListItem;
+  }
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJMaXN0SXRlbV8xIiwiY292XzFyN3BhanhuM2QiLCJzIiwicmVxdWlyZSIsIk9iamVjdCIsImRlZmluZVByb3BlcnR5IiwiZXhwb3J0cyIsImVudW1lcmFibGUiLCJnZXQiLCJmIiwiTGlzdEl0ZW0iXSwic291cmNlcyI6WyIvVXNlcnMvdGhlcm9ubmllbGlldy9EZXNrdG9wL015V29ya3MvUmVhY3ROYXRpdmUvTGVuZGFsYUFzc2Vzc21lbnQvc3JjL2NvbXBvbmVudHMvaW5kZXgudHMiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHtMaXN0SXRlbX0gZnJvbSAnLi9MaXN0SXRlbSc7XG5cbmV4cG9ydCB7TGlzdEl0ZW19O1xuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxNQUFBQSxVQUFBO0FBQUE7QUFBQSxDQUFBQyxjQUFBLEdBQUFDLENBQUEsT0FBQUMsT0FBQTtBQUFvQztBQUFBRixjQUFBLEdBQUFDLENBQUE7QUFFNUJFLE1BQUEsQ0FBQUMsY0FBQSxDQUFBQyxPQUFBO0VBQUFDLFVBQUE7RUFBQUMsR0FBQSxXQUFBQSxDQUFBO0lBQUE7SUFBQVAsY0FBQSxHQUFBUSxDQUFBO0lBQUFSLGNBQUEsR0FBQUMsQ0FBQTtJQUFBLE9BRkFGLFVBQUEsQ0FBQVUsUUFBUTtFQUFBO0FBQUEiLCJpZ25vcmVMaXN0IjpbXX0=

@@ -1,0 +1,214 @@
+feb87e1d052096fd3eb86f3503ce8faa
+"use strict";
+
+/* istanbul ignore next */
+function cov_2jkjoofc1() {
+  var path = "/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/utils/color.ts";
+  var hash = "afb46fda5157e2c69225f4b93022655e90b02ed0";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/utils/color.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 23
+        }
+      },
+      "2": {
+        start: {
+          line: 5,
+          column: 0
+        },
+        end: {
+          line: 10,
+          column: 50
+        }
+      },
+      "3": {
+        start: {
+          line: 6,
+          column: 4
+        },
+        end: {
+          line: 6,
+          column: 36
+        }
+      },
+      "4": {
+        start: {
+          line: 7,
+          column: 4
+        },
+        end: {
+          line: 7,
+          column: 38
+        }
+      },
+      "5": {
+        start: {
+          line: 8,
+          column: 4
+        },
+        end: {
+          line: 8,
+          column: 41
+        }
+      },
+      "6": {
+        start: {
+          line: 9,
+          column: 4
+        },
+        end: {
+          line: 9,
+          column: 41
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 5,
+            column: 1
+          },
+          end: {
+            line: 5,
+            column: 2
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 18
+          },
+          end: {
+            line: 10,
+            column: 1
+          }
+        },
+        line: 5
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 10,
+            column: 11
+          },
+          end: {
+            line: 10,
+            column: 48
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 10,
+            column: 11
+          },
+          end: {
+            line: 10,
+            column: 24
+          }
+        }, {
+          start: {
+            line: 10,
+            column: 29
+          },
+          end: {
+            line: 10,
+            column: 47
+          }
+        }],
+        line: 10
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {
+      "0": [0, 0]
+    },
+    inputSourceMap: {
+      file: "/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/utils/color.ts",
+      mappings: ";;;AAAA,IAAY,KAKX;AALD,WAAY,KAAK;IACf,+BAAsB,CAAA;IACtB,iCAAwB,CAAA;IACxB,oCAA2B,CAAA;IAC3B,oCAA2B,CAAA;AAC7B,CAAC,EALW,KAAK,GAAL,aAAK,KAAL,aAAK,QAKhB",
+      names: [],
+      sources: ["/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/utils/color.ts"],
+      sourcesContent: ["export enum Color {\n  BACKGROUND = '#f9f9f9',\n  PROGRESS_BG2 = '#1C1B29',\n  PRIMARY_LINEAR1 = '#E065F3',\n  PRIMARY_LINEAR2 = '#9540EF',\n}\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "afb46fda5157e2c69225f4b93022655e90b02ed0"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_2jkjoofc1 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_2jkjoofc1();
+cov_2jkjoofc1().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_2jkjoofc1().s[1]++;
+exports.Color = void 0;
+var Color;
+/* istanbul ignore next */
+cov_2jkjoofc1().s[2]++;
+(function (Color) {
+  /* istanbul ignore next */
+  cov_2jkjoofc1().f[0]++;
+  cov_2jkjoofc1().s[3]++;
+  Color["BACKGROUND"] = "#f9f9f9";
+  /* istanbul ignore next */
+  cov_2jkjoofc1().s[4]++;
+  Color["PROGRESS_BG2"] = "#1C1B29";
+  /* istanbul ignore next */
+  cov_2jkjoofc1().s[5]++;
+  Color["PRIMARY_LINEAR1"] = "#E065F3";
+  /* istanbul ignore next */
+  cov_2jkjoofc1().s[6]++;
+  Color["PRIMARY_LINEAR2"] = "#9540EF";
+})(Color =
+/* istanbul ignore next */
+(cov_2jkjoofc1().b[0][0]++, exports.Color) ||
+/* istanbul ignore next */
+(cov_2jkjoofc1().b[0][1]++, exports.Color = {}));
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJDb2xvciIsImNvdl8yamtqb29mYzEiLCJzIiwiZiIsImIiLCJleHBvcnRzIl0sInNvdXJjZXMiOlsiL1VzZXJzL3RoZXJvbm5pZWxpZXcvRGVza3RvcC9NeVdvcmtzL1JlYWN0TmF0aXZlL0xlbmRhbGFBc3Nlc3NtZW50L3NyYy91dGlscy9jb2xvci50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJleHBvcnQgZW51bSBDb2xvciB7XG4gIEJBQ0tHUk9VTkQgPSAnI2Y5ZjlmOScsXG4gIFBST0dSRVNTX0JHMiA9ICcjMUMxQjI5JyxcbiAgUFJJTUFSWV9MSU5FQVIxID0gJyNFMDY1RjMnLFxuICBQUklNQVJZX0xJTkVBUjIgPSAnIzk1NDBFRicsXG59XG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxJQUFZQSxLQUtYO0FBQUE7QUFBQUMsYUFBQSxHQUFBQyxDQUFBO0FBTEQsV0FBWUYsS0FBSztFQUFBO0VBQUFDLGFBQUEsR0FBQUUsQ0FBQTtFQUFBRixhQUFBLEdBQUFDLENBQUE7RUFDZkYsS0FBQSwwQkFBc0I7RUFBQTtFQUFBQyxhQUFBLEdBQUFDLENBQUE7RUFDdEJGLEtBQUEsNEJBQXdCO0VBQUE7RUFBQUMsYUFBQSxHQUFBQyxDQUFBO0VBQ3hCRixLQUFBLCtCQUEyQjtFQUFBO0VBQUFDLGFBQUEsR0FBQUMsQ0FBQTtFQUMzQkYsS0FBQSwrQkFBMkI7QUFDN0IsQ0FBQyxFQUxXQSxLQUFLO0FBQUw7QUFBQSxDQUFBQyxhQUFBLEdBQUFHLENBQUEsVUFBQUMsT0FBQSxDQUFBTCxLQUFLO0FBQUE7QUFBQSxDQUFBQyxhQUFBLEdBQUFHLENBQUEsVUFBTEMsT0FBQSxDQUFBTCxLQUFLIiwiaWdub3JlTGlzdCI6W119

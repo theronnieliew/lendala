@@ -1,0 +1,108 @@
+94e3ab02cfe2ccc6b037ac7172b5501f
+"use strict";
+
+/* istanbul ignore next */
+function cov_25zb0dwl4p() {
+  var path = "/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/utils/themes.ts";
+  var hash = "fd39572224f2b35456fe6a94189e5a8f948bac0d";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/utils/themes.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 48
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 0
+        },
+        end: {
+          line: 7,
+          column: 2
+        }
+      },
+      "3": {
+        start: {
+          line: 8,
+          column: 0
+        },
+        end: {
+          line: 11,
+          column: 2
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0
+    },
+    f: {},
+    b: {},
+    inputSourceMap: {
+      file: "/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/utils/themes.ts",
+      mappings: ";;;AAAa,QAAA,UAAU,GAAG;IACxB,UAAU,EAAE,SAAS;IACrB,IAAI,EAAE,SAAS;CAChB,CAAC;AAEW,QAAA,SAAS,GAAG;IACvB,UAAU,EAAE,SAAS;IACrB,IAAI,EAAE,SAAS;CAChB,CAAC",
+      names: [],
+      sources: ["/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/utils/themes.ts"],
+      sourcesContent: ["export const lightTheme = {\n  background: '#ffffff',\n  text: '#000000',\n};\n\nexport const darkTheme = {\n  background: '#535C91',\n  text: '#ffffff',\n};\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "fd39572224f2b35456fe6a94189e5a8f948bac0d"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_25zb0dwl4p = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_25zb0dwl4p();
+cov_25zb0dwl4p().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_25zb0dwl4p().s[1]++;
+exports.darkTheme = exports.lightTheme = void 0;
+/* istanbul ignore next */
+cov_25zb0dwl4p().s[2]++;
+exports.lightTheme = {
+  background: '#ffffff',
+  text: '#000000'
+};
+/* istanbul ignore next */
+cov_25zb0dwl4p().s[3]++;
+exports.darkTheme = {
+  background: '#535C91',
+  text: '#ffffff'
+};
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJleHBvcnRzIiwibGlnaHRUaGVtZSIsImJhY2tncm91bmQiLCJ0ZXh0IiwiY292XzI1emIwZHdsNHAiLCJzIiwiZGFya1RoZW1lIl0sInNvdXJjZXMiOlsiL1VzZXJzL3RoZXJvbm5pZWxpZXcvRGVza3RvcC9NeVdvcmtzL1JlYWN0TmF0aXZlL0xlbmRhbGFBc3Nlc3NtZW50L3NyYy91dGlscy90aGVtZXMudHMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IGxpZ2h0VGhlbWUgPSB7XG4gIGJhY2tncm91bmQ6ICcjZmZmZmZmJyxcbiAgdGV4dDogJyMwMDAwMDAnLFxufTtcblxuZXhwb3J0IGNvbnN0IGRhcmtUaGVtZSA9IHtcbiAgYmFja2dyb3VuZDogJyM1MzVDOTEnLFxuICB0ZXh0OiAnI2ZmZmZmZicsXG59O1xuIl0sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBYUEsT0FBQSxDQUFBQyxVQUFVLEdBQUc7RUFDeEJDLFVBQVUsRUFBRSxTQUFTO0VBQ3JCQyxJQUFJLEVBQUU7Q0FDUDtBQUFDO0FBQUFDLGNBQUEsR0FBQUMsQ0FBQTtBQUVXTCxPQUFBLENBQUFNLFNBQVMsR0FBRztFQUN2QkosVUFBVSxFQUFFLFNBQVM7RUFDckJDLElBQUksRUFBRTtDQUNQIiwiaWdub3JlTGlzdCI6W119

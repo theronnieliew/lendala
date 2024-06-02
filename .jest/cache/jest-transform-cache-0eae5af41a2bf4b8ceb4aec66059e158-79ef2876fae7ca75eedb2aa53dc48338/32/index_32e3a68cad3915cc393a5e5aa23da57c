@@ -1,0 +1,337 @@
+c477cc7a73c0eddf6fd1078288ad60a4
+"use strict";
+
+// import {configureStore} from '@reduxjs/toolkit';
+// import {persistStore, persistReducer} from 'redux-persist';
+// import AsyncStorage from '@react-native-async-storage/async-storage';
+/* istanbul ignore next */
+function cov_2fqzhyztzk() {
+  var path = "/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/store/index.ts";
+  var hash = "3467c4d36d9fd76f1aa2cfda5a13074447320d8b";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/store/index.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 5,
+          column: 22
+        },
+        end: {
+          line: 7,
+          column: 1
+        }
+      },
+      "1": {
+        start: {
+          line: 6,
+          column: 4
+        },
+        end: {
+          line: 6,
+          column: 62
+        }
+      },
+      "2": {
+        start: {
+          line: 8,
+          column: 0
+        },
+        end: {
+          line: 8,
+          column: 62
+        }
+      },
+      "3": {
+        start: {
+          line: 9,
+          column: 0
+        },
+        end: {
+          line: 9,
+          column: 23
+        }
+      },
+      "4": {
+        start: {
+          line: 21,
+          column: 18
+        },
+        end: {
+          line: 21,
+          column: 45
+        }
+      },
+      "5": {
+        start: {
+          line: 22,
+          column: 25
+        },
+        end: {
+          line: 22,
+          column: 78
+        }
+      },
+      "6": {
+        start: {
+          line: 23,
+          column: 22
+        },
+        end: {
+          line: 23,
+          column: 72
+        }
+      },
+      "7": {
+        start: {
+          line: 24,
+          column: 0
+        },
+        end: {
+          line: 29,
+          column: 3
+        }
+      }
+    },
+    fnMap: {
+      "0": {
+        name: "(anonymous_0)",
+        decl: {
+          start: {
+            line: 5,
+            column: 56
+          },
+          end: {
+            line: 5,
+            column: 57
+          }
+        },
+        loc: {
+          start: {
+            line: 5,
+            column: 71
+          },
+          end: {
+            line: 7,
+            column: 1
+          }
+        },
+        line: 5
+      }
+    },
+    branchMap: {
+      "0": {
+        loc: {
+          start: {
+            line: 5,
+            column: 22
+          },
+          end: {
+            line: 7,
+            column: 1
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 5,
+            column: 23
+          },
+          end: {
+            line: 5,
+            column: 27
+          }
+        }, {
+          start: {
+            line: 5,
+            column: 31
+          },
+          end: {
+            line: 5,
+            column: 51
+          }
+        }, {
+          start: {
+            line: 5,
+            column: 56
+          },
+          end: {
+            line: 7,
+            column: 1
+          }
+        }],
+        line: 5
+      },
+      "1": {
+        loc: {
+          start: {
+            line: 6,
+            column: 11
+          },
+          end: {
+            line: 6,
+            column: 61
+          }
+        },
+        type: "cond-expr",
+        locations: [{
+          start: {
+            line: 6,
+            column: 37
+          },
+          end: {
+            line: 6,
+            column: 40
+          }
+        }, {
+          start: {
+            line: 6,
+            column: 43
+          },
+          end: {
+            line: 6,
+            column: 61
+          }
+        }],
+        line: 6
+      },
+      "2": {
+        loc: {
+          start: {
+            line: 6,
+            column: 12
+          },
+          end: {
+            line: 6,
+            column: 33
+          }
+        },
+        type: "binary-expr",
+        locations: [{
+          start: {
+            line: 6,
+            column: 12
+          },
+          end: {
+            line: 6,
+            column: 15
+          }
+        }, {
+          start: {
+            line: 6,
+            column: 19
+          },
+          end: {
+            line: 6,
+            column: 33
+          }
+        }],
+        line: 6
+      }
+    },
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 0,
+      "6": 0,
+      "7": 0
+    },
+    f: {
+      "0": 0
+    },
+    b: {
+      "0": [0, 0, 0],
+      "1": [0, 0],
+      "2": [0, 0]
+    },
+    inputSourceMap: {
+      file: "/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/store/index.ts",
+      mappings: ";AAAA,mDAAmD;AACnD,8DAA8D;AAC9D,wEAAwE;;;;;;AAExE,0DAA0D;AAE1D,0BAA0B;AAC1B,iBAAiB;AACjB,2BAA2B;AAC3B,KAAK;AAEL,wCAAwC;AACxC,eAAe;AACf,8DAA8D;AAC9D,OAAO;AACP,MAAM;AAEN,gDAAgD;AAEhD,8CAAgD;AAChD,+EAAuD;AACvD,yEAAiD;AAEpC,QAAA,KAAK,GAAG,IAAA,wBAAc,EAAC;IAClC,OAAO,EAAE;QACP,OAAO,EAAE,wBAAc;QACvB,IAAI,EAAE,qBAAW;KAClB;CACF,CAAC,CAAC",
+      names: [],
+      sources: ["/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/store/index.ts"],
+      sourcesContent: ["// import {configureStore} from '@reduxjs/toolkit';\n// import {persistStore, persistReducer} from 'redux-persist';\n// import AsyncStorage from '@react-native-async-storage/async-storage';\n\n// import pokemonReducer from './reducers/pokemonReducer';\n\n// const persistConfig = {\n//   key: 'root',\n//   storage: AsyncStorage,\n// };\n\n// export const store = configureStore({\n//   reducer: {\n//     pokemon: persistReducer(persistConfig, pokemonReducer),\n//   },\n// });\n\n// export const persistor = persistStore(store);\n\nimport {configureStore} from '@reduxjs/toolkit';\nimport pokemonReducer from './reducers/pokemonReducer';\nimport userReducer from './reducers/userReducer';\n\nexport const store = configureStore({\n  reducer: {\n    pokemon: pokemonReducer,\n    user: userReducer,\n  },\n});\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "3467c4d36d9fd76f1aa2cfda5a13074447320d8b"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_2fqzhyztzk = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_2fqzhyztzk();
+var __importDefault =
+/* istanbul ignore next */
+(cov_2fqzhyztzk().s[0]++,
+/* istanbul ignore next */
+(cov_2fqzhyztzk().b[0][0]++, this) &&
+/* istanbul ignore next */
+(cov_2fqzhyztzk().b[0][1]++, this.__importDefault) ||
+/* istanbul ignore next */
+(cov_2fqzhyztzk().b[0][2]++, function (mod) {
+  /* istanbul ignore next */
+  cov_2fqzhyztzk().f[0]++;
+  cov_2fqzhyztzk().s[1]++;
+  return (
+    /* istanbul ignore next */
+    (cov_2fqzhyztzk().b[2][0]++, mod) &&
+    /* istanbul ignore next */
+    (cov_2fqzhyztzk().b[2][1]++, mod.__esModule) ?
+    /* istanbul ignore next */
+    (cov_2fqzhyztzk().b[1][0]++, mod) :
+    /* istanbul ignore next */
+    (cov_2fqzhyztzk().b[1][1]++, {
+      "default": mod
+    })
+  );
+}));
+/* istanbul ignore next */
+cov_2fqzhyztzk().s[2]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_2fqzhyztzk().s[3]++;
+exports.store = void 0;
+// import pokemonReducer from './reducers/pokemonReducer';
+// const persistConfig = {
+//   key: 'root',
+//   storage: AsyncStorage,
+// };
+// export const store = configureStore({
+//   reducer: {
+//     pokemon: persistReducer(persistConfig, pokemonReducer),
+//   },
+// });
+// export const persistor = persistStore(store);
+const toolkit_1 =
+/* istanbul ignore next */
+(cov_2fqzhyztzk().s[4]++, require("@reduxjs/toolkit"));
+const pokemonReducer_1 =
+/* istanbul ignore next */
+(cov_2fqzhyztzk().s[5]++, __importDefault(require("./reducers/pokemonReducer")));
+const userReducer_1 =
+/* istanbul ignore next */
+(cov_2fqzhyztzk().s[6]++, __importDefault(require("./reducers/userReducer")));
+/* istanbul ignore next */
+cov_2fqzhyztzk().s[7]++;
+exports.store = (0, toolkit_1.configureStore)({
+  reducer: {
+    pokemon: pokemonReducer_1.default,
+    user: userReducer_1.default
+  }
+});
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJjb3ZfMmZxemh5enR6ayIsInBhdGgiLCJoYXNoIiwiZ2xvYmFsIiwiRnVuY3Rpb24iLCJnY3YiLCJjb3ZlcmFnZURhdGEiLCJzdGF0ZW1lbnRNYXAiLCJzdGFydCIsImxpbmUiLCJjb2x1bW4iLCJlbmQiLCJmbk1hcCIsIm5hbWUiLCJkZWNsIiwibG9jIiwiYnJhbmNoTWFwIiwidHlwZSIsImxvY2F0aW9ucyIsInMiLCJmIiwiYiIsImlucHV0U291cmNlTWFwIiwiZmlsZSIsIm1hcHBpbmdzIiwibmFtZXMiLCJzb3VyY2VzIiwic291cmNlc0NvbnRlbnQiLCJ2ZXJzaW9uIiwiX2NvdmVyYWdlU2NoZW1hIiwiY292ZXJhZ2UiLCJhY3R1YWxDb3ZlcmFnZSIsInRvb2xraXRfMSIsInJlcXVpcmUiLCJwb2tlbW9uUmVkdWNlcl8xIiwiX19pbXBvcnREZWZhdWx0IiwidXNlclJlZHVjZXJfMSIsImV4cG9ydHMiLCJzdG9yZSIsImNvbmZpZ3VyZVN0b3JlIiwicmVkdWNlciIsInBva2Vtb24iLCJkZWZhdWx0IiwidXNlciJdLCJzb3VyY2VzIjpbIi9Vc2Vycy90aGVyb25uaWVsaWV3L0Rlc2t0b3AvTXlXb3Jrcy9SZWFjdE5hdGl2ZS9MZW5kYWxhQXNzZXNzbWVudC9zcmMvc3RvcmUvaW5kZXgudHMiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gaW1wb3J0IHtjb25maWd1cmVTdG9yZX0gZnJvbSAnQHJlZHV4anMvdG9vbGtpdCc7XG4vLyBpbXBvcnQge3BlcnNpc3RTdG9yZSwgcGVyc2lzdFJlZHVjZXJ9IGZyb20gJ3JlZHV4LXBlcnNpc3QnO1xuLy8gaW1wb3J0IEFzeW5jU3RvcmFnZSBmcm9tICdAcmVhY3QtbmF0aXZlLWFzeW5jLXN0b3JhZ2UvYXN5bmMtc3RvcmFnZSc7XG5cbi8vIGltcG9ydCBwb2tlbW9uUmVkdWNlciBmcm9tICcuL3JlZHVjZXJzL3Bva2Vtb25SZWR1Y2VyJztcblxuLy8gY29uc3QgcGVyc2lzdENvbmZpZyA9IHtcbi8vICAga2V5OiAncm9vdCcsXG4vLyAgIHN0b3JhZ2U6IEFzeW5jU3RvcmFnZSxcbi8vIH07XG5cbi8vIGV4cG9ydCBjb25zdCBzdG9yZSA9IGNvbmZpZ3VyZVN0b3JlKHtcbi8vICAgcmVkdWNlcjoge1xuLy8gICAgIHBva2Vtb246IHBlcnNpc3RSZWR1Y2VyKHBlcnNpc3RDb25maWcsIHBva2Vtb25SZWR1Y2VyKSxcbi8vICAgfSxcbi8vIH0pO1xuXG4vLyBleHBvcnQgY29uc3QgcGVyc2lzdG9yID0gcGVyc2lzdFN0b3JlKHN0b3JlKTtcblxuaW1wb3J0IHtjb25maWd1cmVTdG9yZX0gZnJvbSAnQHJlZHV4anMvdG9vbGtpdCc7XG5pbXBvcnQgcG9rZW1vblJlZHVjZXIgZnJvbSAnLi9yZWR1Y2Vycy9wb2tlbW9uUmVkdWNlcic7XG5pbXBvcnQgdXNlclJlZHVjZXIgZnJvbSAnLi9yZWR1Y2Vycy91c2VyUmVkdWNlcic7XG5cbmV4cG9ydCBjb25zdCBzdG9yZSA9IGNvbmZpZ3VyZVN0b3JlKHtcbiAgcmVkdWNlcjoge1xuICAgIHBva2Vtb246IHBva2Vtb25SZWR1Y2VyLFxuICAgIHVzZXI6IHVzZXJSZWR1Y2VyLFxuICB9LFxufSk7XG4iXSwibWFwcGluZ3MiOiI7O0FBQUE7QUFDQTtBQUNBO0FBQUE7QUFBQSxTQUFBQSxlQUFBO0VBQUEsSUFBQUMsSUFBQTtFQUFBLElBQUFDLElBQUE7RUFBQSxJQUFBQyxNQUFBLE9BQUFDLFFBQUE7RUFBQSxJQUFBQyxHQUFBO0VBQUEsSUFBQUMsWUFBQTtJQUFBTCxJQUFBO0lBQUFNLFlBQUE7TUFBQTtRQUFBQyxLQUFBO1VBQUFDLElBQUE7VUFBQUMsTUFBQTtRQUFBO1FBQUFDLEdBQUE7VUFBQUYsSUFBQTtVQUFBQyxNQUFBO1FBQUE7TUFBQTtNQUFBO1FBQUFGLEtBQUE7VUFBQUMsSUFBQTtVQUFBQyxNQUFBO1FBQUE7UUFBQUMsR0FBQTtVQUFBRixJQUFBO1VBQUFDLE1BQUE7UUFBQTtNQUFBO01BQUE7UUFBQUYsS0FBQTtVQUFBQyxJQUFBO1VBQUFDLE1BQUE7UUFBQTtRQUFBQyxHQUFBO1VBQUFGLElBQUE7VUFBQUMsTUFBQTtRQUFBO01BQUE7TUFBQTtRQUFBRixLQUFBO1VBQUFDLElBQUE7VUFBQUMsTUFBQTtRQUFBO1FBQUFDLEdBQUE7VUFBQUYsSUFBQTtVQUFBQyxNQUFBO1FBQUE7TUFBQTtNQUFBO1FBQUFGLEtBQUE7VUFBQUMsSUFBQTtVQUFBQyxNQUFBO1FBQUE7UUFBQUMsR0FBQTtVQUFBRixJQUFBO1VBQUFDLE1BQUE7UUFBQTtNQUFBO01BQUE7UUFBQUYsS0FBQTtVQUFBQyxJQUFBO1VBQUFDLE1BQUE7UUFBQTtRQUFBQyxHQUFBO1VBQUFGLElBQUE7VUFBQUMsTUFBQTtRQUFBO01BQUE7TUFBQTtRQUFBRixLQUFBO1VBQUFDLElBQUE7VUFBQUMsTUFBQTtRQUFBO1FBQUFDLEdBQUE7VUFBQUYsSUFBQTtVQUFBQyxNQUFBO1FBQUE7TUFBQTtNQUFBO1FBQUFGLEtBQUE7VUFBQUMsSUFBQTtVQUFBQyxNQUFBO1FBQUE7UUFBQUMsR0FBQTtVQUFBRixJQUFBO1VBQUFDLE1BQUE7UUFBQTtNQUFBO0lBQUE7SUFBQUUsS0FBQTtNQUFBO1FBQUFDLElBQUE7UUFBQUMsSUFBQTtVQUFBTixLQUFBO1lBQUFDLElBQUE7WUFBQUMsTUFBQTtVQUFBO1VBQUFDLEdBQUE7WUFBQUYsSUFBQTtZQUFBQyxNQUFBO1VBQUE7UUFBQTtRQUFBSyxHQUFBO1VBQUFQLEtBQUE7WUFBQUMsSUFBQTtZQUFBQyxNQUFBO1VBQUE7VUFBQUMsR0FBQTtZQUFBRixJQUFBO1lBQUFDLE1BQUE7VUFBQTtRQUFBO1FBQUFELElBQUE7TUFBQTtJQUFBO0lBQUFPLFNBQUE7TUFBQTtRQUFBRCxHQUFBO1VBQUFQLEtBQUE7WUFBQUMsSUFBQTtZQUFBQyxNQUFBO1VBQUE7VUFBQUMsR0FBQTtZQUFBRixJQUFBO1lBQUFDLE1BQUE7VUFBQTtRQUFBO1FBQUFPLElBQUE7UUFBQUMsU0FBQTtVQUFBVixLQUFBO1lBQUFDLElBQUE7WUFBQUMsTUFBQTtVQUFBO1VBQUFDLEdBQUE7WUFBQUYsSUFBQTtZQUFBQyxNQUFBO1VBQUE7UUFBQTtVQUFBRixLQUFBO1lBQUFDLElBQUE7WUFBQUMsTUFBQTtVQUFBO1VBQUFDLEdBQUE7WUFBQUYsSUFBQTtZQUFBQyxNQUFBO1VBQUE7UUFBQTtVQUFBRixLQUFBO1lBQUFDLElBQUE7WUFBQUMsTUFBQTtVQUFBO1VBQUFDLEdBQUE7WUFBQUYsSUFBQTtZQUFBQyxNQUFBO1VBQUE7UUFBQTtRQUFBRCxJQUFBO01BQUE7TUFBQTtRQUFBTSxHQUFBO1VBQUFQLEtBQUE7WUFBQUMsSUFBQTtZQUFBQyxNQUFBO1VBQUE7VUFBQUMsR0FBQTtZQUFBRixJQUFBO1lBQUFDLE1BQUE7VUFBQTtRQUFBO1FBQUFPLElBQUE7UUFBQUMsU0FBQTtVQUFBVixLQUFBO1lBQUFDLElBQUE7WUFBQUMsTUFBQTtVQUFBO1VBQUFDLEdBQUE7WUFBQUYsSUFBQTtZQUFBQyxNQUFBO1VBQUE7UUFBQTtVQUFBRixLQUFBO1lBQUFDLElBQUE7WUFBQUMsTUFBQTtVQUFBO1VBQUFDLEdBQUE7WUFBQUYsSUFBQTtZQUFBQyxNQUFBO1VBQUE7UUFBQTtRQUFBRCxJQUFBO01BQUE7TUFBQTtRQUFBTSxHQUFBO1VBQUFQLEtBQUE7WUFBQUMsSUFBQTtZQUFBQyxNQUFBO1VBQUE7VUFBQUMsR0FBQTtZQUFBRixJQUFBO1lBQUFDLE1BQUE7VUFBQTtRQUFBO1FBQUFPLElBQUE7UUFBQUMsU0FBQTtVQUFBVixLQUFBO1lBQUFDLElBQUE7WUFBQUMsTUFBQTtVQUFBO1VBQUFDLEdBQUE7WUFBQUYsSUFBQTtZQUFBQyxNQUFBO1VBQUE7UUFBQTtVQUFBRixLQUFBO1lBQUFDLElBQUE7WUFBQUMsTUFBQTtVQUFBO1VBQUFDLEdBQUE7WUFBQUYsSUFBQTtZQUFBQyxNQUFBO1VBQUE7UUFBQTtRQUFBRCxJQUFBO01BQUE7SUFBQTtJQUFBVSxDQUFBO01BQUE7TUFBQTtNQUFBO01BQUE7TUFBQTtNQUFBO01BQUE7TUFBQTtJQUFBO0lBQUFDLENBQUE7TUFBQTtJQUFBO0lBQUFDLENBQUE7TUFBQTtNQUFBO01BQUE7SUFBQTtJQUFBQyxjQUFBO01BQUFDLElBQUE7TUFBQUMsUUFBQTtNQUFBQyxLQUFBO01BQUFDLE9BQUE7TUFBQUMsY0FBQTtNQUFBQyxPQUFBO0lBQUE7SUFBQUMsZUFBQTtJQUFBM0IsSUFBQTtFQUFBO0VBQUEsSUFBQTRCLFFBQUEsR0FBQTNCLE1BQUEsQ0FBQUUsR0FBQSxNQUFBRixNQUFBLENBQUFFLEdBQUE7RUFBQSxLQUFBeUIsUUFBQSxDQUFBN0IsSUFBQSxLQUFBNkIsUUFBQSxDQUFBN0IsSUFBQSxFQUFBQyxJQUFBLEtBQUFBLElBQUE7SUFBQTRCLFFBQUEsQ0FBQTdCLElBQUEsSUFBQUssWUFBQTtFQUFBO0VBQUEsSUFBQXlCLGNBQUEsR0FBQUQsUUFBQSxDQUFBN0IsSUFBQTtFQUFBO0lBVUE7SUFBQUQsY0FBQSxZQUFBQSxDQUFBO01BQUEsT0FBQStCLGNBQUE7SUFBQTtFQUFBO0VBQUEsT0FBQUEsY0FBQTtBQUFBO0FBQUEvQixjQUFBOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBUkE7QUFFQTtBQUNBO0FBQ0E7QUFDQTtBQUVBO0FBQ0E7QUFDQTtBQUNBO0FBQ0E7QUFFQTtBQUVBLE1BQUFnQyxTQUFBO0FBQUE7QUFBQSxDQUFBaEMsY0FBQSxHQUFBbUIsQ0FBQSxPQUFBYyxPQUFBO0FBQ0EsTUFBQUMsZ0JBQUE7QUFBQTtBQUFBLENBQUFsQyxjQUFBLEdBQUFtQixDQUFBLE9BQUFnQixlQUFBLENBQUFGLE9BQUE7QUFDQSxNQUFBRyxhQUFBO0FBQUE7QUFBQSxDQUFBcEMsY0FBQSxHQUFBbUIsQ0FBQSxPQUFBZ0IsZUFBQSxDQUFBRixPQUFBO0FBQWlEO0FBQUFqQyxjQUFBLEdBQUFtQixDQUFBO0FBRXBDa0IsT0FBQSxDQUFBQyxLQUFLLEdBQUcsSUFBQU4sU0FBQSxDQUFBTyxjQUFjLEVBQUM7RUFDbENDLE9BQU8sRUFBRTtJQUNQQyxPQUFPLEVBQUVQLGdCQUFBLENBQUFRLE9BQWM7SUFDdkJDLElBQUksRUFBRVAsYUFBQSxDQUFBTTs7Q0FFVCxDQUFDIiwiaWdub3JlTGlzdCI6W119

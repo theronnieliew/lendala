@@ -1,0 +1,118 @@
+060870a58f9289b86b0295b070f3395e
+"use strict";
+
+/* istanbul ignore next */
+function cov_vvps9k048() {
+  var path = "/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/api/index.ts";
+  var hash = "f6ee39d5ce2fbcf55b135a9ef0916dcf4a0be137";
+  var global = new Function("return this")();
+  var gcv = "__coverage__";
+  var coverageData = {
+    path: "/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/api/index.ts",
+    statementMap: {
+      "0": {
+        start: {
+          line: 2,
+          column: 0
+        },
+        end: {
+          line: 2,
+          column: 62
+        }
+      },
+      "1": {
+        start: {
+          line: 3,
+          column: 0
+        },
+        end: {
+          line: 3,
+          column: 28
+        }
+      },
+      "2": {
+        start: {
+          line: 4,
+          column: 21
+        },
+        end: {
+          line: 4,
+          column: 44
+        }
+      },
+      "3": {
+        start: {
+          line: 5,
+          column: 12
+        },
+        end: {
+          line: 7,
+          column: 1
+        }
+      },
+      "4": {
+        start: {
+          line: 8,
+          column: 0
+        },
+        end: {
+          line: 8,
+          column: 36
+        }
+      }
+    },
+    fnMap: {},
+    branchMap: {},
+    s: {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0
+    },
+    f: {},
+    b: {},
+    inputSourceMap: {
+      file: "/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/api/index.ts",
+      mappings: ";;;AAAA,6CAAwC;AAExC,MAAM,GAAG,GAAG;IACV,UAAU,EAAE,IAAI,uBAAU,EAAE;CAC7B,CAAC;AAEY,kBAAU,GAAI,GAAG,YAAC",
+      names: [],
+      sources: ["/Users/theronnieliew/Desktop/MyWorks/ReactNative/LendalaAssessment/src/api/index.ts"],
+      sourcesContent: ["import {PokemonAPI} from './PokemonAPI';\n\nconst api = {\n  pokemonApi: new PokemonAPI(),\n};\n\nexport const {pokemonApi} = api;\n"],
+      version: 3
+    },
+    _coverageSchema: "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    hash: "f6ee39d5ce2fbcf55b135a9ef0916dcf4a0be137"
+  };
+  var coverage = global[gcv] || (global[gcv] = {});
+  if (!coverage[path] || coverage[path].hash !== hash) {
+    coverage[path] = coverageData;
+  }
+  var actualCoverage = coverage[path];
+  {
+    // @ts-ignore
+    cov_vvps9k048 = function () {
+      return actualCoverage;
+    };
+  }
+  return actualCoverage;
+}
+cov_vvps9k048();
+cov_vvps9k048().s[0]++;
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+/* istanbul ignore next */
+cov_vvps9k048().s[1]++;
+exports.pokemonApi = void 0;
+const PokemonAPI_1 =
+/* istanbul ignore next */
+(cov_vvps9k048().s[2]++, require("./PokemonAPI"));
+const api =
+/* istanbul ignore next */
+(cov_vvps9k048().s[3]++, {
+  pokemonApi: new PokemonAPI_1.PokemonAPI()
+});
+/* istanbul ignore next */
+cov_vvps9k048().s[4]++;
+exports.pokemonApi = api.pokemonApi;
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJuYW1lcyI6WyJQb2tlbW9uQVBJXzEiLCJjb3ZfdnZwczlrMDQ4IiwicyIsInJlcXVpcmUiLCJhcGkiLCJwb2tlbW9uQXBpIiwiUG9rZW1vbkFQSSIsImV4cG9ydHMiXSwic291cmNlcyI6WyIvVXNlcnMvdGhlcm9ubmllbGlldy9EZXNrdG9wL015V29ya3MvUmVhY3ROYXRpdmUvTGVuZGFsYUFzc2Vzc21lbnQvc3JjL2FwaS9pbmRleC50cyJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQge1Bva2Vtb25BUEl9IGZyb20gJy4vUG9rZW1vbkFQSSc7XG5cbmNvbnN0IGFwaSA9IHtcbiAgcG9rZW1vbkFwaTogbmV3IFBva2Vtb25BUEkoKSxcbn07XG5cbmV4cG9ydCBjb25zdCB7cG9rZW1vbkFwaX0gPSBhcGk7XG4iXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLE1BQUFBLFlBQUE7QUFBQTtBQUFBLENBQUFDLGFBQUEsR0FBQUMsQ0FBQSxPQUFBQyxPQUFBO0FBRUEsTUFBTUMsR0FBRztBQUFBO0FBQUEsQ0FBQUgsYUFBQSxHQUFBQyxDQUFBLE9BQUc7RUFDVkcsVUFBVSxFQUFFLElBQUlMLFlBQUEsQ0FBQU0sVUFBVTtDQUMzQjtBQUFDO0FBQUFMLGFBQUEsR0FBQUMsQ0FBQTtBQUVZSyxPQUFBLENBQUFGLFVBQVUsR0FBSUQsR0FBRyxDQUFBQyxVQUFBIiwiaWdub3JlTGlzdCI6W119
